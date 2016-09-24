@@ -1,0 +1,49 @@
+﻿  main.cpp
+c:\users\msukkari\documents\game\game\mesh.h(78): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  controls.cpp
+c:\users\msukkari\documents\game\game\controls.cpp(60): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\msukkari\documents\game\game\controls.cpp(63): warning C4305: '=': truncation from 'double' to 'float'
+  Generating Code...
+controls.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+controls.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+controls.obj : error LNK2019: unresolved external symbol glfwSetCursorPos referenced in function "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol glfwSetCursorPos
+controls.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "int __cdecl initWindow(void)" (?initWindow@@YAHXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol SOIL_load_image referenced in function "int __cdecl TextureFromFile(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHPEBDV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: unresolved external symbol SOIL_free_image_data referenced in function "int __cdecl TextureFromFile(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHPEBDV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+main.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+.\glew\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+.\glfw\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+.\soil\lib\SOIL.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\msukkari\Documents\game\x64\Debug\game.exe : fatal error LNK1120: 38 unresolved externals
