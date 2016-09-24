@@ -8,13 +8,13 @@ TableFlip is a 3D table flipping simulator I made in my free time. The main purp
 
 The graphics for this project were done using the OpenGL API. GLSL shaders were used to simulate real-world lighting, which can be best seen by the specular lighting in the metal texture. All of the models in this simulation are of the file type ".obj", and were loaded using the Assimp library. As for the textures, I used SOIL (Simple OpenGL Image Library), to load the various texture files.
 
-#Phyiscs
+#Physics
 
 A 3D table flipping simulator would be pointless without some real-world physics and collision. To do this, I used the Bullet physics engine. This was probably the most difficult part of this simulation and as a result, has the most bugs. For the most part however, the collision works very well and the simple 3D model of the table allows for an almost 1:1 match for the collision body.
 
 #Sound
 
-Game sound is handeled using the SFML library. The source of these sound clips is the result of googling "free drum sound clips".
+Game sound is handled using the SFML library. The source of these sound clips is the result of googling "free drum sound clips".
 
 #Controls
 
