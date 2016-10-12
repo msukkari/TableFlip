@@ -90,7 +90,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\glew\include;.\glfw\include;.\glm;.\soil\include;.\assimp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\bullet\src;.\glew\include;.\glfw\include;.\glm;.\soil\include;.\assimp\include;.\sfml\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>.\glew\lib\Release\Win32;.\glfw\lib-vc2015;.\soil\lib;.\assimp\lib</AdditionalLibraryDirectories>
@@ -123,7 +123,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\glew\include;.\glfw\include;.\glm;.\soil\include;.\assimp\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\bullet\src;.\glew\include;.\glfw\include;.\glm;.\soil\include;.\assimp\include;.\sfml\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
