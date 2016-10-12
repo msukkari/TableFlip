@@ -1,8 +1,10 @@
 #TableFlip
 
-
 TableFlip is a 3D table flipping simulator I made in my free time. The main purpose of this project was to challenge my knowledge of graphics programming (using OpenGL), as well as to get some hands-on experience with collision detection and physics.
 
+#Building
+
+Open the solution file and make sure that the build configuration is set to Release:x86
 
 #Graphics
 
